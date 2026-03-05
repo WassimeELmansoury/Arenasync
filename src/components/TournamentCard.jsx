@@ -25,16 +25,16 @@ function DisplayCard() {
           {/* Details Section (Icons) */}
           <div className="card-details">
             <div className="detail-item">
-              <span>👥</span> {it.participantsCount} • {it.type}
+              <i className="fa-solid fa-users" style="color: #000000;"></i>{it.participantsCount} • {it.type}
             </div>
             <div className="detail-item">
-              <span>🏆</span> {it.format}
+                <i className="fa-solid fa-trophy" style="color: #000000;"></i> {it.format}
             </div>
             <div className="detail-item">
-              <span>📅</span> {it.date}
+                <i class="fa-solid fa-calendar" style="color: #000000;"></i> {it.date}
             </div>
             <div className="detail-item">
-              <span>📍</span> {it.location}
+                <i class="fa-solid fa-location-dot" style="color: #000000;"></i> {it.location}
             </div>
           </div>
         </div>
