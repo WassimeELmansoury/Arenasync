@@ -1,3 +1,6 @@
+import DisplayCard from "./components/TournamentCard";
+
+
 export default function App(){
   return (
     <>
@@ -17,6 +20,7 @@ export default function App(){
       <button><i className="fa-solid fa-sliders"></i></button>
     </div>
     </div>
+    <DisplayCard />
     </>
 );
 }

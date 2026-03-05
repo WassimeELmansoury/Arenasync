@@ -17,24 +17,23 @@ function DisplayCard() {
             </div>
           </div>
 
-          {/* Description Section */}
+          
           <div className="card-description">
             <p>{it.description}</p>
           </div>
 
-          {/* Details Section (Icons) */}
           <div className="card-details">
             <div className="detail-item">
-              <i className="fa-solid fa-users" style="color: #000000;"></i>{it.participantsCount} • {it.type}
+              <i className="fa-solid fa-users" ></i> {it.participantsCount} • {it.type}
             </div>
             <div className="detail-item">
-                <i className="fa-solid fa-trophy" style="color: #000000;"></i> {it.format}
+                <i className="fa-solid fa-trophy"></i> {it.format}
             </div>
             <div className="detail-item">
-                <i class="fa-solid fa-calendar" style="color: #000000;"></i> {it.date}
+                <i className="fa-solid fa-calendar"></i> {it.date}
             </div>
             <div className="detail-item">
-                <i class="fa-solid fa-location-dot" style="color: #000000;"></i> {it.location}
+                <i className="fa-solid fa-location-dot"></i> {it.location}
             </div>
           </div>
         </div>
