@@ -17,6 +17,27 @@ function DisplayCard() {
             </div>
           </div>
 
+          {/* Description Section */}
+          <div className="card-description">
+            <p>{it.description}</p>
+          </div>
+
+          {/* Details Section (Icons) */}
+          <div className="card-details">
+            <div className="detail-item">
+              <span>👥</span> {it.participantsCount} • {it.type}
+            </div>
+            <div className="detail-item">
+              <span>🏆</span> {it.format}
+            </div>
+            <div className="detail-item">
+              <span>📅</span> {it.date}
+            </div>
+            <div className="detail-item">
+              <span>📍</span> {it.location}
+            </div>
+          </div>
+        </div>
       ))}
     </div>
   );
