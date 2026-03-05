@@ -8,14 +8,13 @@ export default function App(){
         <p style={{ margin: 0, opacity: 0.8 }}>Samuel walker !</p>
       </div>
       <div className="header-icons">
-        <img src="/images/notification-bell.png" alt="Notification" id="notification" />
-        <img src="/images/user.png" alt="user" id="profile"/>
+        <img src="/images/notification.png" alt="Notification" />
+        <img src="/images/user.jpg" alt="user" id="profile"/>
       </div>
     </header>
     <div className="search-bar">
       <input type="text" placeholder="Search"/>
       <button><i className="fa-solid fa-sliders"></i></button>
-
     </div>
     </div>
     </>

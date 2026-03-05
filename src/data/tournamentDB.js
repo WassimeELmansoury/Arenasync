@@ -5,7 +5,8 @@ export const tournamentData = [
     id: "t1",
     title: "Shuttle Masters League",
     sport: "Badminton",
-    status: "On Going", // UtilisÃ© pour la couleur du StatusBadge (ex: success/green)
+    image: "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1200&q=80",
+    status: "On Going",
     date: "October 12, 2025",
     location: "Badminton Hall 1",
     description: "Top players battle it out with skillful rallies and powerful smashes.",
@@ -23,7 +24,8 @@ export const tournamentData = [
     id: "t2",
     title: "Hoops Championship",
     sport: "Basketball",
-    status: "Upcoming", // UtilisÃ© pour la couleur du StatusBadge (ex: primary/blue)
+    image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
+    status: "Upcoming",
     date: "November 2, 2025",
     location: "Indoor Arena - Court A",
     description: "Intense games filled with teamwork, speed, and spectacular shots.",
@@ -32,10 +34,11 @@ export const tournamentData = [
     type: "Community",
     participants: []
   },
-  {
+ {
     id: "t3",
     title: "Ring Masters League",
     sport: "Boxing",
+    image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1200&q=80",
     status: "Pending",
     date: "December 5, 2025",
     location: "Combat Zone Gym",
