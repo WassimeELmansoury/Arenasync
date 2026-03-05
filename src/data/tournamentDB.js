@@ -48,4 +48,4 @@ export const tournamentData = [
       { id: "u6", name: "Daniel Thomas", status: "Confirmed", avatar: "https://i.pravatar.cc/150?u=u6" }
     ]
   }
-];j
+];
