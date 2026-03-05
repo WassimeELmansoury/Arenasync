@@ -12,6 +12,11 @@ export default function App(){
         <img src="/images/user.png" alt="user" id="profile"/>
       </div>
     </header>
+    <div className="search-bar">
+      <input type="text" placeholder="Search"/>
+      <button><i className="fa-solid fa-sliders"></i></button>
+
+    </div>
     </div>
     </>
 );
