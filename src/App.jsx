@@ -4,7 +4,7 @@ import SecondPage from "./components/SecondPage";
 export default function App(){
   return (
     <>
-    {/* <HomePage/> */}
+    {<HomePage/>}
     <SecondPage/>
     </>
 );
