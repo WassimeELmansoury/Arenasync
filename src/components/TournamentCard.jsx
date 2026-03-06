@@ -11,9 +11,9 @@ function DisplayCard() {
             </div>
             <div className="card-info">
                 <h3>{it.title}</h3>
-                <span>
+                <button className={`status ${it.status}`}>
                     {it.status}
-                </span>
+                </button>
             </div>
           </div>
 

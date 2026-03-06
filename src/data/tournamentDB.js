@@ -6,7 +6,7 @@ export const tournamentData = [
     title: "Shuttle Masters League",
     sport: "Badminton",
     image: "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1200&q=80",
-    status: "On Going",
+    status: "On-Going",
     date: "October 12, 2025",
     location: "Badminton Hall 1",
     description: "Top players battle it out with skillful rallies and powerful smashes.",
