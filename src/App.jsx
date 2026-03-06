@@ -1,9 +1,6 @@
+import MenuButtom from "./components/MenuButtom";
 import DisplayCard from "./components/TournamentCard";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1388f0981e35d7a1859af6fcbb2ecb3ae9b7d103
 export default function App(){
   return (
     <>
@@ -23,12 +20,8 @@ export default function App(){
       <button><i className="fa-solid fa-sliders"></i></button>
     </div>
     </div>
-<<<<<<< HEAD
     <DisplayCard/>
-    
-=======
-    <DisplayCard />
->>>>>>> 1388f0981e35d7a1859af6fcbb2ecb3ae9b7d103
+    <MenuButtom/>
     </>
 );
 }

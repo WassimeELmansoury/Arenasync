@@ -17,17 +17,12 @@ function DisplayCard() {
             </div>
           </div>
 
-<<<<<<< HEAD
-=======
-          
->>>>>>> 1388f0981e35d7a1859af6fcbb2ecb3ae9b7d103
           <div className="card-description">
             <p>{it.description}</p>
           </div>
 
           <div className="card-details">
             <div className="detail-item">
-<<<<<<< HEAD
               <i className="fa-solid fa-users" ></i>{it.participantsCount} • {it.type}
             </div>
             <div className="detail-item">
@@ -38,18 +33,6 @@ function DisplayCard() {
             </div>
             <div className="detail-item">
                 <i class="fa-solid fa-location-dot" ></i> {it.location}
-=======
-              <i className="fa-solid fa-users" ></i> {it.participantsCount} • {it.type}
-            </div>
-            <div className="detail-item">
-                <i className="fa-solid fa-trophy"></i> {it.format}
-            </div>
-            <div className="detail-item">
-                <i className="fa-solid fa-calendar"></i> {it.date}
-            </div>
-            <div className="detail-item">
-                <i className="fa-solid fa-location-dot"></i> {it.location}
->>>>>>> 1388f0981e35d7a1859af6fcbb2ecb3ae9b7d103
             </div>
           </div>
         </div>
