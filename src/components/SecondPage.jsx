@@ -2,7 +2,7 @@ function SecondPage() {
     return(
         <>
         <div>
-            r
+            
         </div>
         </>
     )
