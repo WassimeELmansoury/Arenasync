@@ -12,7 +12,7 @@
     border-top: solid ;
 
 }
-header {
+.home-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -186,9 +186,13 @@ border-radius: 20px;}
   transition: 0.5s;
 }
 .tournament-header{
-  background: linear-gradient(180deg, #6A5AE0 0%, #a9a8eb 100%);
+  background: linear-gradient(180deg, #4A47F5);
   padding: 20px;
+  border-radius: 20px 20px 0 0;
   color: white;
+  display: flex;
+  justify-content: space-between;
+ 
 }
 
 .back-btn{
@@ -199,7 +203,8 @@ border-radius: 20px;}
 }
 
 .tournament-title{
-  text-align: center;
+  color: #ffffff;
+  font-size: large;
 }
 .tournament-content {
   padding: 20px;
@@ -214,4 +219,10 @@ border-radius: 20px;}
 .tournament-not-found {
   color: white;
   padding: 20px;
+}
+#card-detail{
+  border-top: solid 2px white;
+  background: linear-gradient(180deg, #4A47F5 0%, #a9a8eb 100%);
+  border-radius: 0 0 20px 20px;
+  color: white;
 }

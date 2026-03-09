@@ -4,7 +4,7 @@ import DisplayCard from "./TournamentCard";
 function HomePage(){
     return(<>
     <div className="Home-Page">
-    <header className="header">
+    <header className="home-header">
       <div>
         <h2 style={{ margin: 0, fontSize: '1.2rem' }}>Good Morning</h2>
         <p style={{ margin: 0, opacity: 0.8 }}>Samuel walker !</p>
