@@ -17,7 +17,12 @@ function SecondPage() {
                 </button>
                 <h2 className="tournament-title">Tournament</h2>
             </header>
-         </div>
+        </div>
+        <div>
+            <img src={tournament.image} alt={tournament.title} />
+            <h1>{tournament.title}</h1>
+            <span className={`status ${tournament.status}`}>{tournament.status}</span>
+        </div>
         </>
     )
 }
