@@ -5,7 +5,7 @@ function DisplayCard() {
   return (
     <div className="cards">
       {tournamentData.map((it) => (
-        <Link to={`/details/${it.id}`} key={it.id} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link to={`/SP/${it.id}`} key={it.id} style={{ textDecoration: 'none', color: 'inherit' }}>
           <div className="card">
             <div className="top-face">
               <div className="card-img">

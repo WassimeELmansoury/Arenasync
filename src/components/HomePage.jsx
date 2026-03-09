@@ -20,7 +20,6 @@ function HomePage(){
     </div>
     </div>
     <DisplayCard/>
-    <MenuButtom/>
     </>)
     
 }
