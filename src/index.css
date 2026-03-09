@@ -183,3 +183,19 @@ border-radius: 20px;}
   transform: translateY(-2px);
   transition: 0.5s;
 }
+.tournament-header{
+  background: linear-gradient(180deg, #6A5AE0 0%, #a9a8eb 100%);
+  padding: 20px;
+  color: white;
+}
+
+.back-btn{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.tournament-title{
+  text-align: center;
+}
