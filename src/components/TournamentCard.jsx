@@ -38,9 +38,11 @@ function DisplayCard() {
               </div>
             </div>
           </div>
+        
         </Link>
       ))}
     </div>
+    
   );
 }
 

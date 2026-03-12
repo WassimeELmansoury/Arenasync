@@ -14,10 +14,10 @@ export const tournamentData = [
     format: "Single Elimination",
     type: "Public",
     participants: [
-      { id: "u1", name: "Ethan Miller", status: "Pending", avatar: "https://i.pravatar.cc/150?u=u1" },
-      { id: "u2", name: "Noah Smith", status: "Confirmed", avatar: "https://i.pravatar.cc/150?u=u2" },
-      { id: "u3", name: "James Anderson", status: "Confirmed", avatar: "https://i.pravatar.cc/150?u=u3" },
-      { id: "u4", name: "David Hall", status: "Confirmed", avatar: "https://i.pravatar.cc/150?u=u4" }
+      { id: "u1", name: "Ethan Miller", status: "🕔 Pending", avatar: "https://i.pravatar.cc/150?u=u1" },
+      { id: "u2", name: "Noah Smith", status: "✅ Confirmed", avatar: "https://i.pravatar.cc/150?u=u2" },
+      { id: "u3", name: "James Anderson", status: "✅ Confirmed", avatar: "https://i.pravatar.cc/150?u=u3" },
+      { id: "u4", name: "David Hall", status: "✅ Confirmed", avatar: "https://i.pravatar.cc/150?u=u4" }
     ]
   },
   {
@@ -32,7 +32,13 @@ export const tournamentData = [
     participantsCount: "8/12 Teams",
     format: "Single Elimination",
     type: "Community",
-    participants: []
+    participants: [  { id: "p1", name: "Alice Johnson", status: "✅ confirmed", avatar: "https://i.pravatar.cc/150?u=p1" },
+  { id: "p2", name: "Bob Williams", status: "🕔 pending", avatar: "https://i.pravatar.cc/150?u=p2" },
+  { id: "p3", name: "Charlie Brown", status: "✅ confirmed", avatar: "https://i.pravatar.cc/150?u=p3" },
+  { id: "p4", name: "Diana Ross", status: "🕔 pending", avatar: "https://i.pravatar.cc/150?u=p4" },
+  { id: "p5", name: "Evan Lee", status: "✅ confirmed", avatar: "https://i.pravatar.cc/150?u=p5" },
+  { id: "p6", name: "Fiona Green", status: "🕔 pending", avatar: "https://i.pravatar.cc/150?u=p6" }
+]
   },
  {
     id: "t3",
@@ -47,8 +53,8 @@ export const tournamentData = [
     format: "Round Robin",
     type: "Pro",
     participants: [
-      { id: "u5", name: "Aiden Davis", status: "Pending", avatar: "https://i.pravatar.cc/150?u=u5" },
-      { id: "u6", name: "Daniel Thomas", status: "Confirmed", avatar: "https://i.pravatar.cc/150?u=u6" }
+      { id: "u5", name: "Aiden Davis", status: "🕔 Pending", avatar: "https://i.pravatar.cc/150?u=u5" },
+      { id: "u6", name: "Daniel Thomas", status: "✅ Confirmed", avatar: "https://i.pravatar.cc/150?u=u6" }
     ]
   }
 ];
