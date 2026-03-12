@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'; // Zidi had l-import
 import { tournamentData } from "../data/tournamentDB";
+import BtnInscription from './ButtonInscription';
 
 function DisplayCard() {
   return (
@@ -23,20 +24,26 @@ function DisplayCard() {
               <p>{it.description}</p>
             </div>
 
-            <div className="card-details">
-              <div className="detail-item">
-                <i className="fa-solid fa-users"></i>{it.participantsCount} • {it.type}
-              </div>
-              <div className="detail-item">
-                <i className="fa-solid fa-trophy"></i> {it.format}
-              </div>
-              <div className="detail-item">
-                <i className="fa-solid fa-calendar"></i> {it.date}
-              </div>
-              <div className="detail-item">
-                <i className="fa-solid fa-location-dot"></i> {it.location}
-              </div>
-            </div>
+            <div className="card-details flex flex-col gap-2">
+  <div className="detail-item flex items-center gap-2">
+    <i className="fa-solid fa-users"></i>{it.participantsCount} • {it.type}
+  </div>
+  <div className="detail-item flex items-center gap-2">
+    <i className="fa-solid fa-trophy"></i> {it.format}
+  </div>
+  <div className="detail-item flex items-center gap-2">
+    <i className="fa-solid fa-calendar"></i> {it.date}
+  </div>
+  <div className="detail-item flex items-center gap-2">
+    <i className="fa-solid fa-location-dot"></i> {it.location}
+  </div>
+
+  {/* BtnInscription */}
+  <div className="flex justify-start mt-2">
+    <BtnInscription />
+  </div>
+</div>
+
           </div>
         
         </Link>
