@@ -55,6 +55,13 @@ function SignupForm() {
           />
         </div>
 
+        {/* Button */}
+        <button className="mt-5 w-full bg-[#524FF4] text-white font-semibold py-2 rounded-lg hover:opacity-90 transition">
+          Valider l'inscription
+        </button>
+        <button     className="w-full bg-gray-200 text-gray-700 font-semibold py-2 rounded-lg hover:bg-gray-300 transition">
+          Cancel
+        </button>
       </div>
     </div>
   );
