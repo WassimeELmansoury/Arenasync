@@ -11,7 +11,7 @@ export default function App(){
     <Routes>
     <Route path="/" element={<HomePage/>}></Route>
     <Route path="/SP/:id" element={<SecondPage/>}></Route>
-    <Route path="/FS/:id" element={<SignupForm/>}></Route>
+    <Route path="/signup/:id" element={<SignupForm />} />    
     </Routes>
     </BrowserRouter>
     {/* {<HomePage/>} */}

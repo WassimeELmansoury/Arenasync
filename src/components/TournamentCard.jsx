@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { tournamentData } from "../data/tournamentDB";
-import BtnInscription from './ButtonInscription';
+import BtnInscription from './BtnInsccription'
+import { useState } from "react";
+import SignupForm from "./SignupForm";
 
 function DisplayCard() {
-
+const [activatformid,setactiveformid]= useState(null)
   return (
     <div className="cards">
       {tournamentData.map((it) => (
@@ -42,10 +44,13 @@ function DisplayCard() {
             </div>
           </Link>
 
-          {/* BtnInscription برا Link */}
-          <div className="flex justify-start mt-2">
-            <BtnInscription id={it.id}/>
-          </div>
+          {/* BtnInscription */}
+            <div className="flex justify-start mt-2">
+              <BtnInscription onClick={()=>setactiveformid(it.id)}/>
+            </div>
+            {/*form*/}
+            {activatformid ===it.id && (
+            <SignupForm tournmentid={it.id}/>)}
 
         </div>
       ))}
