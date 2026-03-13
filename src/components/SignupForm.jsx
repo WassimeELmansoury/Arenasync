@@ -34,6 +34,26 @@ function SignupForm() {
           )}
         </div>
 
+        {/* Inputs */}
+        <div className="flex flex-col gap-3">
+          <input
+            type="text"
+            placeholder="Nom"
+            className="border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-[#524FF4]"
+          />
+
+          <input
+            type="text"
+            placeholder="Prénom"
+            className="border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-[#524FF4]"
+          />
+
+          <input
+            type="email"
+            placeholder="Email"
+            className="border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-[#524FF4]"
+          />
+        </div>
 
       </div>
     </div>
