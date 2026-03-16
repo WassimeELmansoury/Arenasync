@@ -3,6 +3,7 @@ import { tournamentData } from "../data/tournamentDB";
 import BtnInscription from './BtnInsccription'
 import { useState } from "react";
 import SignupForm from "./SignupForm";
+import GetstatusBadg from "./StatusBadge";
 
 function DisplayCard() {
 const [activatformid,setactiveformid]= useState(null)
@@ -18,9 +19,9 @@ const [activatformid,setactiveformid]= useState(null)
               </div>
               <div className="card-info">
                 <h3>{it.title}</h3>
-                <button className={`status ${it.status}`}>
+                <span className={`${GetstatusBadg(it.status)}`}>
                   {it.status}
-                </button>
+                </span>
               </div>
             </div>
 

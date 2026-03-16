@@ -6,8 +6,7 @@ function SecondPage() {
     const {id}=useParams();
     const navigate = useNavigate();
     const tournament = tournamentData.find((t) => t.id === id);
-    const capacity = 16; 
-    const remainingPlaces = capacity - tournament.participants.length;
+    
     
     if (!tournament){
         return <div>Tournament not found!</div>
