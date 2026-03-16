@@ -50,7 +50,7 @@ const [activatformid,setactiveformid]= useState(null)
             </div>
             {/*form*/}
             {activatformid ===it.id && (
-            <SignupForm tournmentid={it.id}/>)}
+            <SignupForm tournmentid={it.id} />)}
 
         </div>
       ))}

@@ -12,7 +12,9 @@ function SignupForm({tournmentid}) {
     if( (formValue.name=="") || (formValue.status=="") || (formValue.avatar=="")){
             alert("remplir tout les champs")
     }else{
-      let tourn=tournamentData.find((it)=>{it.id==tournmentid})
+      console.log(tournmentid)
+      console.log(tournamentData)
+      let tourn=tournamentData.find((it)=>it.id==tournmentid)
       if(tourn!=undefined){
         tourn.participants.push(formValue)
       }
